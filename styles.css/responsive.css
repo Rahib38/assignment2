@@ -1,0 +1,17 @@
+@media screen and (max-width:600px) {
+    .header-icon{
+        display: block;
+        margin-top: 30px;
+    }
+    nav ul{
+        display: none;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        gap: 50px;
+        padding: 0 50px;
+
+    }
+}

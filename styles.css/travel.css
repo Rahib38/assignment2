@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sora', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* header and nav section on css */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.header-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+header h2{
+    color: #131318;
+font-size: 1.8rem;
+font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    color: #424247;
+}
+
+span{
+    color: #FF5400;
+font-size: 1rem;
+font-weight: 700;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.header-icon {
+    display: none;
+}
