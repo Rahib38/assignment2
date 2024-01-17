@@ -18,6 +18,7 @@
     .banner-section {
         margin: 0 auto;
     }
+    
 
     .banner-item>h3 {
         padding-top: 10px;
@@ -30,14 +31,15 @@
 
     .banner-button {
         flex-direction: column;
-        height: 60%;
+        height: 60%; 
+     max-width: 100%;
+
 
     }
 
     .btn-primary {
         padding: 10px;
-        width: 150px;
-        margin-left: 10px;
+        max-width: 100%;
     }
 
     .tour-container {
@@ -61,8 +63,10 @@
         flex-direction: column;
         gap: 10px;
     }
-    .Choose-img3{
-        width: 50%;
+    .Choose-img3,
+    .Choose-img2,
+    .Choose-img1{
+        width: 100%;
     }
 
     .place-container{
