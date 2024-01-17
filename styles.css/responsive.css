@@ -12,15 +12,11 @@
         display: flex;
         align-items: center;
         margin: 0 auto;
-        gap: 50px;
-        padding: 0 50px;
-
+        gap: 60%;
     }
 
     .banner-section {
-        /* width: 335px;
-        height: 483px; */
-        padding-top: 10px;
+        margin: 0 auto;
     }
 
     .banner-item>h3 {
@@ -59,5 +55,20 @@
         flex-direction: column;
         padding: 20px;
         max-width: 100%;
+    }
+
+    .Choose-title{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Choose-img3{
+        width: 50%;
+    }
+
+    .place-container{
+        flex-direction: column;
+    }
+    .newspaper-container{
+        flex-direction: column;
     }
 }
