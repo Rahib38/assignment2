@@ -1,17 +1,63 @@
 @media screen and (max-width:600px) {
-    .header-icon{
+    .header-icon {
         display: block;
         margin-top: 30px;
     }
-    nav ul{
+
+    nav ul {
         display: none;
     }
-    header{
+
+    header {
         display: flex;
         align-items: center;
         margin: 0 auto;
         gap: 50px;
         padding: 0 50px;
 
+    }
+
+    .banner-section {
+        /* width: 335px;
+        height: 483px; */
+        padding-top: 10px;
+    }
+
+    .banner-item>h3 {
+        padding-top: 10px;
+        font-size: 1rem;
+        /* max-width: 170px; */
+        margin: 0 auto;
+        align-items: center;
+    }
+    
+
+    .banner-button {
+        flex-direction: column;
+        height: 60%;
+
+    }
+
+    .btn-primary {
+        padding: 10px;
+        width: 150px;
+        margin-left: 10px;
+    }
+
+    .tour-container {
+        flex-direction: column;
+    }
+
+    .tour-img {
+        width: 335px;
+        margin: 0;
+        padding: 0  ;
+        /* margin: 0 auto; */
+        /* padding: 50px; */
+    }
+    .Destination-img .img1{
+        flex-direction: column;
+        padding: 20px;
+        max-width: 100%;
     }
 }
